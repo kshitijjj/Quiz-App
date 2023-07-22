@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Spinner from './Spinner';
-import { connection, set } from 'mongoose';
-import Component3 from './Component_3';
 import Marks from './Marks';
 import {
     BrowserRouter as Router,
