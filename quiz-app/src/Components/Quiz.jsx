@@ -149,11 +149,11 @@ function Quiz(props){
 
                 {index<9?
                 <div className="buttons">
-                <Link  to='/' id="main2_btn"><span><img id='img1' src="./images/arrow_left.svg" alt="" /></span>Quit </Link>
-                <button  onClick={handleClick}   id="main2_submit">Next<span><img id='img2' src="./images/arrow_right.svg" alt="" /></span></button>
+                <Link  to='/' id="main2_btn"><span><img id='img1' src="" alt="" /></span>Quit </Link>
+                <button  onClick={handleClick}   id="main2_submit">Next<span><img id='img2' src="" alt="" /></span></button>
                 </div>
                 :
-                <button onClick={handleSubmit}  id="main2_btn1">Submit<span><img id='img2' src="./images/arrow_right.svg" alt="" /></span></button>
+                <button onClick={handleSubmit}  id="main2_btn1">Submit<span><img id='img2' src="" alt="" /></span></button>
                 }
 
             </div>
