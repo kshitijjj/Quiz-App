@@ -444,6 +444,7 @@ margin-left: 10%;
     flex-direction: column;
     width: 73vw;
     margin-left: 9%;
+    margin-top: 23%;
   }
   #main1_img{
     padding-top: 0.5em;
@@ -481,10 +482,10 @@ margin-left: 10%;
 
 
   .main3{
+    margin-top: 20%;
+    height: 84vh;
     width: 72vw;
     margin-left: 14%;
-    margin-top: 5%;
-    height: 63vh;
   }
   #main3_text3{
     margin-left: 0;
@@ -501,7 +502,7 @@ margin-left: 10%;
 #main3_text5{
   margin-left: 23%;
   margin-top: 12%;
-  margin-bottom: 0;
+  margin-bottom: 5%;
 }
 #main3_link{
   margin-left: 32%;
@@ -510,7 +511,8 @@ margin-left: 10%;
 
 .main2{
   width: 87vw;
-  margin-left: 1%;
+  margin-left: 7%;
+    margin-top: 3%;
 }
 .main2_1{
   padding: 1em;
