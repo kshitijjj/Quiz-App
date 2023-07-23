@@ -8,7 +8,7 @@ function Quiz2 (props) {
     useEffect(()=>{
         setTimeout(()=>{
             setans(false)
-        },1600);
+        },500);
     })
     return (
         
@@ -19,6 +19,8 @@ function Quiz2 (props) {
         <Spinner text="Getting the instructions for the quiz........" />
         :
         <div className="main3">
+        
+        <div className="main3_1">
 
         <div className="main3_heading1">
             <p id="main3_text1">Hey,&nbsp;<span id='main3_text'>{props.name1}</span> </p>
@@ -41,6 +43,7 @@ function Quiz2 (props) {
             <Link to="/quiz" id="main3_link">START QUIZ</Link>
         </div>
 
+        </div>
     </div>
 }
       </>

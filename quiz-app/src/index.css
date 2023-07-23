@@ -21,7 +21,7 @@ code {
   padding-bottom: 4%;
   background-color: #C1FF72;
   width: 50vw;
-  border-radius: 1.2em;
+  border-radius: 0.3em;
   box-shadow: 1px 4px 15px -2px grey;
 }
 
@@ -31,52 +31,58 @@ code {
 }
 
 #main1_text1{
-  text-shadow: 2px 2px 2px rgb(239, 247, 239);
-  font-family: 'League Spartan', sans-serif;
-  font-size: 2.4em;
-  height: 0.1vh;
-  width: 23vw;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 2.1em;
+  height: 1.9vh;
+  width: 120%;
 }
 #main1_input:hover,#main1_link:hover,#main3_link:hover{
   box-shadow: 0px 2px 6px -1px rgb(132, 130, 130);
 }
 #main1_text2{
-  font-family: 'Belanosima', sans-serif;
-  font-size: 1.4em;
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.2em;
   text-align: center;
+  margin-left: 10%;
 }
-#main1_input{
+#main1_input,#main1_input2{
   box-shadow: 0px 5px 9px -2px rgb(132, 130, 130);
   text-align: center;
-  border-radius: 2em;
+  border-radius: 0.4em;
   border: none;
   font-size: 0.9em;
-  font-family: 'Belanosima', sans-serif;
+  font-family: 'Archivo', sans-serif;
   margin-top: 15%;
   padding: 1em;
   width: 12vw;
-  margin-left: 28%;
+  margin-left: 32%;
+  }
+  #main1_input2{
+    margin-top:8%;
+    width: 80%;
+    font-weight: 200;
+    margin-left: 23%;
   }
 #main1_link{
   border: none;
   box-shadow: 0px 5px 9px -2px rgb(132, 130, 130);
-  font-family: 'Belanosima', sans-serif;
+  font-family: 'Archivo', sans-serif;
  text-decoration: none;
  font-size: 1.1em;
  text-align: center;
  color: white;
  background-color:#00BF63;
- width: 15vw;
- padding: 0.5em;
- border-radius: 0.8em;
- margin-top: 12%;
-margin-left: 4.8em;
+ width: 95%;
+ padding:1.2em;
+ border-radius: 0.3em;
+ margin-top: 20%;
+margin-left: 1.8em;
 }
 
 
 
 .main1_heading2{
-  margin-top: 15%;
+  margin-top: 5%;
   display: flex;
   flex-direction: column;
 }
@@ -95,7 +101,7 @@ margin-left: 4.8em;
  border-radius:0.2em; 
   box-shadow: 0px 8px 20px -2px rgb(132, 130, 130);
   margin-left: 35%;
-  margin-top: 1.5%;
+  margin-top: 3%;
 margin-bottom: 5%;
 }
 
@@ -113,23 +119,24 @@ text-align: center;
 font-size: 2.2em;
 margin-bottom: 2%;
 margin-top: 2%;
-font-family: 'Belanosima', sans-serif;
+font-family: 'Archivo Black', sans-serif;
 
 }
 #main2_text2{
-font-size: 2.2em;
+font-size: 2em;
 margin-left: 5%;
-font-family: 'Belanosima', sans-serif;
+font-family: 'Archivo', sans-serif;
 }
 #main2_text3{
-  font-size: 1.4em;
+  font-size: 1.25em;
   padding-left: 5%;
-  font-family: 'Belanosima', sans-serif;
+  font-family: 'Archivo', sans-serif;
 }
 .option1,.option2,.option3,.option4{
 width: 19vw;
 height: 6vh;
 background-color: #fff;
+
 margin-left: 20%;
 box-shadow: 0px 5px 9px -2px rgb(132, 130, 130);
 margin-bottom: 6%;
@@ -142,8 +149,8 @@ margin-bottom: 6%;
   border: none;
   text-align: center;
   text-decoration:none;
-  font-size: 1.5em;
-  font-family: 'Belanosima', sans-serif;
+  font-size: 1.25em;
+  font-family: 'Archivo Black', sans-serif;
   background-color: #00BF63;
   color: white;
   padding-left: 5%;
@@ -153,6 +160,7 @@ margin-bottom: 6%;
   margin-left: 43%;
   box-shadow: 0px 5px 9px -2px rgb(132, 130, 130);
   margin-bottom:2%;
+  border-radius: 0.3em;
 }
 
 #main2_btn{
@@ -191,7 +199,9 @@ margin-bottom: 6%;
     margin-left: 33%;
     margin-top: 5%;
 }
-
+.main3_1{
+  padding-bottom: 10%;
+}
 
 .main3{
   margin-top: 5em;
@@ -199,7 +209,7 @@ margin-bottom: 6%;
   flex-direction: column;
   border:4px solid #00BF63;
   width: 40vw;
-  height: 60vh;
+  height: 80%;
   margin-left: 30%;
   box-shadow: 0px 5px 9px -2px rgb(159, 156, 156);
 }
@@ -216,33 +226,38 @@ margin-bottom: 6%;
   font-size: 1.8em;
   text-align: center;
   height: 2vh;
-  font-family: 'Belanosima', sans-serif;
+  font-family: 'Archivo', sans-serif;
 }
 #main3_text{
   text-align: center;
   color: #00BF63;
-  font-family: 'Belanosima', sans-serif;
+  font-family: 'Archivo Black', sans-serif;
 }
 #main3_text2{
   font-size: 1.4em;
   text-align: center;
-  font-family: 'Belanosima', sans-serif;
+  font-family: 'Archivo ', sans-serif;
 }
 #main3_text3{
   margin-left: 1.8%;
   font-size: 1.4em;
   text-align: center;
-  font-family: 'Belanosima', sans-serif;
+  font-family: 'Archivo Black', sans-serif;
 }
 
 .main3_heading3{
 margin-left: 17%;
 }
 
+.main3_1{
+
+}
+
 #li{
  
   font-size: 1.15em;
-  font-family: 'Belanosima', sans-serif;
+  font-family: 'Archivo', sans-serif;
+  margin-top: 2%;
 }
 
 li:hover{
@@ -251,14 +266,14 @@ li:hover{
 #main3_text5{
   margin-top: 5%;
   font-size: 1.6em;
-  margin-left:25%;
-  font-family: 'Belanosima', sans-serif;
+  margin-left:23%;
+  font-family: 'Archivo Black', sans-serif;
   height: 7vh;
 }
 #main3_link{
   text-decoration: none;
   margin-left: 42.3%;
-  font-family: 'Belanosima', sans-serif;
+  font-family: 'Archivo Black', sans-serif;
   background-color: #00BF63;
   box-shadow: 0px 5px 9px -2px rgb(132, 130, 130);
   color: white;
@@ -285,10 +300,12 @@ li:hover{
 .option1,.option2,.option3,.option4{
   background-color: #ededed;
   text-align: center;
-  font-size: 1.4em;
-  font-family: 'Belanosima', sans-serif;
+  font-size: 1.2em;
+  font-family: 'Archivo', sans-serif;
   margin-left: 8%;
   padding: 0.5em;
+  border-radius: 0.3em;
+
 }
 
 .option1:hover,.option2:hover,.option3:hover,.option4:hover{
@@ -317,7 +334,7 @@ box-shadow: 0px 5px 9px -2px rgb(159, 156, 156);
   color: white;
   text-align: center;
   margin-top: 0;
-  font-family: 'League Spartan', sans-serif;
+  font-family: 'Archivo Black', sans-serif;
   margin-bottom: 0;
   font-size: 2.5em;
   padding: 0.5em;
@@ -325,14 +342,14 @@ box-shadow: 0px 5px 9px -2px rgb(159, 156, 156);
 
 #main4_text3,#main4_text5,#main4_text7{
   font-size: 1.5em;
-  font-family: 'League Spartan', sans-serif;
+  font-family: 'Archivo ', sans-serif;
   float: left;
   margin-bottom: 0;
   margin-top: 4%;
 }
 #main4_text4,#main4_text6,#main4_text8{
   font-size: 1.5em;
-  font-family: 'League Spartan', sans-serif;
+  font-family: 'Archivo Black', sans-serif;
   text-transform: uppercase;
   float: right;
   
@@ -357,8 +374,9 @@ box-shadow: 0px 5px 9px -2px rgb(159, 156, 156);
 }
 
 #main4_link1,#main4_link2{
+  font-size: 1em;
   text-decoration: none;
-  font-family: 'League Spartan', sans-serif;
+  font-family: 'Archivo ', sans-serif;
   background-color: #00BF63;
   box-shadow: 0px 5px 9px -2px rgb(132, 130, 130);
   color: white;
@@ -380,6 +398,8 @@ margin-left: 10%;
   place-items: center;
   margin-top: 20%;
 }
+
+
 
 .lds-ellipsis {
   display: inline-block;

@@ -31,7 +31,7 @@ function Quiz(props){
     useEffect(()=>{
         setTimeout(()=>{
             setans1(false)
-        },1800);
+        },1200);
     })
 
     let API="https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=multiple"
@@ -132,18 +132,18 @@ function Quiz(props){
             <div className="main2_1">
                 <p id="main2_text1">QUIZ</p>
 
-                <p id="main2_points">Points- {points}/10</p>
+                {/* <p id="main2_points">Points- {points}/10</p> */}
                 <div className="question">
                     <p id="main2_text2">{index+1}</p>
                     <p id="main2_text3">{question1}</p>
                 </div>
 
-                <ul className="main2_options">
+                <ol className="main2_options">
                     <li onClick={handleClick1}    className="option1">{options0}</li>
                     <li  onClick={handleClick2}   className="option2">{options1}</li>
                     <li  onClick={handleClick3}     className="option3">{options2}</li>
                     <li onClick={handleClick4}    className="option4">{options3}</li>
-                </ul>
+                </ol>
 
                 {index<9?
                 <div className="buttons">
