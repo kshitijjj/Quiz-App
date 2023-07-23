@@ -19,7 +19,7 @@ code {
   padding-left: 2%;
   padding-right:6% ;
   padding-bottom: 4%;
-  background-color: #C1FF72;
+  background-color: #F9F5F1;
   width: 50vw;
   border-radius: 0.3em;
   box-shadow: 1px 4px 15px -2px grey;
@@ -71,7 +71,7 @@ code {
  font-size: 1.1em;
  text-align: center;
  color: white;
- background-color:#00BF63;
+ background-color:#8D91AA;
  width: 95%;
  padding:1.2em;
  border-radius: 0.3em;
@@ -216,7 +216,7 @@ margin-bottom: 6%;
   margin-top: 5em;
   display: flex;
   flex-direction: column;
-  border:4px solid #00BF63;
+  background-color:#F9F5F1;
   width: 40vw;
   height: 80%;
   margin-left: 30%;
@@ -224,7 +224,6 @@ margin-bottom: 6%;
 }
 
 .main3:hover{
-  border:2.3px solid #00BF63;
   box-shadow: 0px 3px 7px -4px rgb(159, 156, 156);
 
 }
@@ -239,7 +238,7 @@ margin-bottom: 6%;
 }
 #main3_text{
   text-align: center;
-  color: #00BF63;
+  color: #8D91AA;
   font-family: 'Archivo Black', sans-serif;
 }
 #main3_text2{
@@ -283,7 +282,7 @@ li:hover{
   text-decoration: none;
   margin-left: 42.3%;
   font-family: 'Archivo Black', sans-serif;
-  background-color: #00BF63;
+  background-color: #8D91AA;
   box-shadow: 0px 5px 9px -2px rgb(132, 130, 130);
   color: white;
   padding-left: 1em;
@@ -318,7 +317,7 @@ li:hover{
 .main4{
 display: grid;
 place-items: center;
-background-color: #C1FF72;
+background-color: #F9F5F1;
 width: 40vw;
 margin-left: 30%;
 margin-top: 8%;
@@ -326,7 +325,7 @@ height: 64vh;
 box-shadow: 0px 5px 9px -2px rgb(159, 156, 156);
 }
 .main4_1{
-  background-color: #00BF63;
+  background-color:#8D91AA;
   box-shadow: 0px 5px 9px -2px rgb(159, 156, 156);
 }
 
@@ -377,7 +376,7 @@ box-shadow: 0px 5px 9px -2px rgb(159, 156, 156);
   font-size: 1em;
   text-decoration: none;
   font-family: 'Archivo ', sans-serif;
-  background-color: #00BF63;
+  background-color: #8D91AA;
   box-shadow: 0px 5px 9px -2px rgb(132, 130, 130);
   color: white;
   padding: 0.8em;
