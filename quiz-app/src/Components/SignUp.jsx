@@ -11,6 +11,9 @@ function SignUp(props){
         },500);
     })
 
+    function handleChange2(e){
+        console.log(e.target.value);
+    }
     return (
 <>  
         {loading?
@@ -32,11 +35,11 @@ function SignUp(props){
 
                 <div className="main1_heading2">
                     <input  type="text" placeholder='Your name' onChange={props.handleChange} id="main1_input" ></input>
-                    <select id="main1_input2" >
+                    <select onChange={props.handleChange2} id="main1_input2" >
                         <option selected >Select Difficulty</option>
-                        <option id="main1_input3" value="1">Easy</option>
-                        <option id="main1_input3" value="2">Medium</option>
-                        <option id="main1_input3" value="3">Hard</option>
+                        <option id="main1_input3" value="easy">Easy</option>
+                        <option id="main1_input3" value="medium">Medium</option>
+                        <option id="main1_input3" value="hard">Hard</option>
                     </select>
                     <Link id='main1_link' to='/quiz2'>Submit</Link>
                 </div>

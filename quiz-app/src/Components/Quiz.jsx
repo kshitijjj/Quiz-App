@@ -34,9 +34,8 @@ function Quiz(props){
         },1200);
     })
 
-    let API="https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=multiple"
+    let API=`https://opentdb.com/api.php?amount=10&category=18&difficulty=${props.difficulty}&type=multiple`;
     let ans='';
-
     
 
     async function fetchApiData(url){
