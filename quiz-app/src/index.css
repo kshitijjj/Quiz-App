@@ -483,7 +483,7 @@ margin-left: 10%;
     flex-direction: column;
     width: 73vw;
     margin-left: 9%;
-    margin-top: 23%;
+    margin-top: 3%;
   }
   #main1_img{
     padding-top: 0.5em;
@@ -495,9 +495,9 @@ margin-left: 10%;
     margin-top: 11%;
   }
   #main1_text1{
-    font-size: 1.7em;
+    font-size: 1.6em;
     width: 110%;
-    margin-left: 5%;
+    margin-left: 8%;
   }
   #main1_text2{
   font-size: 1em;
