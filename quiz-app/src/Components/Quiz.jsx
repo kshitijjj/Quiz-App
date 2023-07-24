@@ -29,7 +29,7 @@ function Quiz(props){
     useEffect(()=>{
         setTimeout(()=>{
             setans1(false)
-        },1000);
+        },1300);
     })
 
     

@@ -571,9 +571,10 @@ margin-left: 10%;
   margin-left: 27%;
 }
 .option1,.option2,.option3,.option4{
-  width: 86%;
+  width: 72%;
   margin-left: 0;
   font-size: 1.3em;
+  padding: 1.2em;
 }
 
 .main4{
