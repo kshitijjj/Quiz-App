@@ -593,4 +593,15 @@ margin-left: 10%;
   width: 85vw;
   margin-left: 0;
 }
+
+.main3{
+  width: 90vw;
+  margin-left: 5%;
+  height: 72vh;
+}
+ul{
+  padding-left: 2em;
+  padding-right: 0.6em;
+  margin-left: 5.4%;
+}
 }
