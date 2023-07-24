@@ -11,9 +11,6 @@ function SignUp(props){
         },500);
     })
 
-    function handleChange2(e){
-        console.log(e.target.value);
-    }
     return (
 <>  
         {loading?

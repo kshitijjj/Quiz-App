@@ -9,10 +9,8 @@ import {
   } from "react-router-dom";
 
 function Quiz(props){
-
-    
-
-
+    const[seconds,setSeconds] =useState(30);
+    const [minutes,setminutes]=useState(0);
     const [points,setPoints]=useState(0);
     const [ans1,setans1]=useState(true);
     const [question1,setQuestion1]=useState("");
@@ -31,12 +29,14 @@ function Quiz(props){
     useEffect(()=>{
         setTimeout(()=>{
             setans1(false)
-        },1200);
+        },1000);
     })
 
+    
+   
     let API=`https://opentdb.com/api.php?amount=10&category=18&difficulty=${props.difficulty}&type=multiple`;
     let ans='';
-    
+
 
     async function fetchApiData(url){
         try{
@@ -48,6 +48,26 @@ function Quiz(props){
             console.log(error);
         }
     }
+
+    var timer;
+    useEffect(()=>{
+        timer=setInterval(()=>{
+            setSeconds(seconds-1);
+
+            if(seconds===0){
+                handleTimer();
+            }
+        },1000)
+
+        return()=>clearInterval(timer);
+    })
+
+    async function handleTimer(){
+        await fetchApiData(API);
+        setindex(index+1);
+        setSeconds(30);
+    }
+
 
     function handleClick1(){
         ans=options0
@@ -79,7 +99,6 @@ function Quiz(props){
         setOptions3(answer_array[3]);
     }
 
-    console.log(value);
     function handleClick(){
         if(ans===value ){
             setPoints(points+1)
@@ -103,6 +122,7 @@ function Quiz(props){
                 fetchApiData(API)
             }
         }
+        setSeconds(30);
     }
     
 
@@ -113,8 +133,10 @@ function Quiz(props){
     },[])
 
     function handleSubmit(){
+        console.log(seconds)
+        console.log(minutes)
+
         setSubmit(true);
-        console.log(submit)
     }
 
 
@@ -130,6 +152,7 @@ function Quiz(props){
             :
             <div className="main2_1">
                 <p id="main2_text1">QUIZ</p>
+                <p id='time'>{minutes}:{seconds}</p>
 
                 {/* <p id="main2_points">Points- {points}/10</p> */}
                 <div className="question">
