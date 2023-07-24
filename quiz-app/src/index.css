@@ -483,13 +483,17 @@ margin-left: 10%;
     flex-direction: column;
     width: 73vw;
     margin-left: 9%;
-    margin-top: 3%;
+    margin-top: 9%;
   }
   #main1_img{
     padding-top: 0.5em;
     width: 85%;
     margin-left: 10%;
     height: 28vh;
+  }
+
+  #main1_input2{
+    margin-left: 19%;
   }
   .main1_heading1{
     margin-top: 11%;
@@ -513,11 +517,11 @@ margin-left: 10%;
     border-radius: 0.5em;
   }
   #main1_link{
-    width: 60%;
-    margin-left: 17.5%;
     margin-bottom: 10%;
     border-radius: 0.5em;
     padding: 1em;
+    width: 91%;
+    margin-left: 8%;
   }
 
 
